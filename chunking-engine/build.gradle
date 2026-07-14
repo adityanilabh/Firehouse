@@ -1,0 +1,5 @@
+dependencies {
+    // Postgres for SQL metadata
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'org.postgresql:postgresql'
+}

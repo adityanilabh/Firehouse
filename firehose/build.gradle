@@ -1,0 +1,14 @@
+dependencies {
+    // Kafka
+    implementation 'org.springframework.kafka:spring-kafka'
+
+    // Postgres
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'org.postgresql:postgresql'
+
+    // Elasticsearch
+    implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+
+    // Test dependencies
+    testImplementation 'org.springframework.kafka:spring-kafka-test'
+}
